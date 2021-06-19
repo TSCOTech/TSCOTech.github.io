@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Palatino';
+  font-family: 'Palatino Linotype';
   font-style: normal;
   font-weight: 400;
   src: url(/font.ttf) format('ttf');
@@ -7,7 +7,7 @@
 
 /* latin-ext */
 @font-face {
-  font-family: 'Palatino';
+  font-family: 'Palatino Linotype';
   font-style: normal;
   font-weight: 400;
   src: url(/font.woff2) format('woff2');
@@ -15,7 +15,7 @@
 }
 /* latin */
 @font-face {
-  font-family: 'Palatino';
+  font-family: 'Palatino Linotype';
   font-style: normal;
   font-weight: 400;
   src: url(/font.woff2) format('woff2');
