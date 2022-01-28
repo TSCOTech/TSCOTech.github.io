@@ -8,129 +8,128 @@
 <link rel="stylesheet" href="DMSans.css">
 <link rel="stylesheet" href="w3-colors-win8.css">
 <style>
-  body,
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "DM Sans";
-    font-size: 20px;
-  }
+    body,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: "DM Sans";
+        font-size: 20px;
+    }
 
-  body,
-  html {
-    height: 100%;
-    color: #777;
-    line-height: 1.8;
+    body,
+    html {
+        height: 100%;
+        color: #777;
+        line-height: 1.8;
 
-  }
+    }
 
-  /* Create a Parallax Effect */
-  .bgimg-1 {
-    text-align: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0 auto;
-  }
+    /* Create a Parallax Effect */
+    .bgimg-1 {
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 auto;
+    }
 
-  /* First image (Logo. Full height) */
-  .bgimg-1 {
-    background-image: url('Home.png');
-    min-height: 100%;
-  }
+    /* First image (Logo. Full height) */
+    .bgimg-1 {
+        background-image: url('Home.png');
+        min-height: 100%;
+    }
 </style>
 
 <body>
-  <!-- Navbar (sit on top) -->
-  <div class="w3-top">
-    <div class="w3-bar" id="myNavbar">
-      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);"
-        onclick="toggleFunction()" title="Toggle Navigation Menu">
-        <i class="fa fa-bars"></i>
-      </a>
-      <a href="index.html" class="w3-bar-item w3-button w3-hover-purple w3-large">HOME</a>
-      <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-purple w3-large"><i
-          class="fa fa-user"></i> ABOUT</a>
-      <a href="how-it-works.html" class="w3-bar-item w3-button w3-hide-small w3-hover-purple w3-large"><i
-          class="fa fa-coffee"></i>
-        HOW IT WORKS</a>
-      <a href="testimonial.html" class="w3-bar-item w3-button w3-hide-small w3-hover-purple w3-large"><i
-          class="fa fa-handshake-o"></i> TESTIMONIALS</a>
-      </a>
+    <!-- Navbar (sit on top) -->
+    <div class="w3-top">
+        <div class="w3-bar" id="myNavbar">
+            <a href="index.html" class="w3-bar-item w3-button w3-hover-purple w3-large">HOME</a>
+            <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-purple w3-large"><i
+                    class="fa fa-user"></i> ABOUT</a>
+            <a href="how-it-works.html" class="w3-bar-item w3-button w3-hide-small w3-hover-purple w3-large"><i
+                    class="fa fa-coffee"></i>
+                HOW IT WORKS</a>
+            <a href="testimonial.html" class="w3-bar-item w3-button w3-hide-small w3-hover-purple w3-large"><i
+                    class="fa fa-handshake-o"></i> TESTIMONIALS</a>
+            </a>
+            <a href="faq.html" class="w3-bar-item w3-button w3-hide-small w3-hover-purple w3-large"><i
+                    class="fa fa-lightbulb-o"></i> FAQs</a>
+        </div>
+
+        <!-- Navbar on small screens -->
+        <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium"></div>
     </div>
 
-    <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium"></div>
-  </div>
+    <!-- First Parallax Image with Logo Text -->
+    <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
+        <div class="w3-display-middle" style="top:300px">
+            <img src="Logo.png" style="width:12%"><br>
+            <h3 class="w3-center w3-wide w3-xlarge">THE SHIPPING COMPANY</h3>
 
-  <!-- First Parallax Image with Logo Text -->
-  <div class="bgimg-1 w3-display-container w3-opacity-min" id="home">
-    <div class="w3-display-middle" style="top:300px">
-      <img src="Logo.png" style="width:12%"><br>
-      <h3 class="w3-center w3-wide w3-xlarge">THE SHIPPING COMPANY</h3>
-     
-      <a href="https://docs.google.com/forms/d/e/1FAIpQLSel3HnaOFM6mu-8VqCH1VvPnsq5u2runzS1u2CiIfZBfl5t3Q/viewform"
-        class="w3-button w3-black w3-hover-purple w3-center w3-section w3-round-xlarge w3-jumbo">Start <i class="fa fa-sign-in"></i></a>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSel3HnaOFM6mu-8VqCH1VvPnsq5u2runzS1u2CiIfZBfl5t3Q/viewform"
+                class="w3-button w3-black w3-hover-purple w3-center w3-section w3-round-xlarge w3-jumbo">Start <i
+                    class="fa fa-sign-in"></i></a>
+        </div>
     </div>
-  </div>
- 
-  <div class="w3-row w3-center w3-purple w3-padding-16">
-    <div class="w3-third w3-section">
-      <span class="w3-xxxlarge">1000+</span><br>
-      Matches
+
+    <div class="w3-row w3-center w3-purple w3-padding-16">
+        <div class="w3-third w3-section">
+            <span class="w3-xxxlarge">1000+</span><br>
+            Matches
+        </div>
+        <div class="w3-third w3-section">
+            <span class="w3-xxxlarge">100+</span><br>
+            Dates
+        </div>
+        <div class="w3-third w3-section">
+            <span class="w3-xxxlarge">High</span><br>
+            Satisfaction rate
+        </div>
     </div>
-    <div class="w3-third w3-section">
-      <span class="w3-xxxlarge">100+</span><br>
-      Dates
+
+    <!-- Container (Description) -->
+    <div class="w3-content w3-container w3-padding-64">
+        <h3 class="w3-center w3-xxlarge">Always here,</h3>
+        <h3 class="w3-center w3-xxlarge">Shipping For You.</h3>
     </div>
-    <div class="w3-third w3-section">
-      <span class="w3-xxxlarge">High</span><br>
-      Satisfaction rate
     </div>
-  </div>
 
-  <!-- Container (Description) -->
-  <div class="w3-content w3-container w3-padding-64">
-    <h3 class="w3-center w3-xxlarge">Always here,</h3>
-    <h3 class="w3-center w3-xxlarge">Shipping For You.</h3>
-  </div>
-  </div>
+    <!-- Footer -->
+    <footer class="w3-center w3-win8-mauve w3-padding-8">
+        <div class="w3-xxlarge w3-section">
+            <a href="https://www.facebook.com/100218818187648/">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+            <a href="https://www.instagram.com/theshippingcompany_official/">
+                <i class="fa fa-instagram w3-hover-opacity"></i></a>
+        </div>
+    </footer>
 
-  <!-- Footer -->
-  <footer class="w3-center w3-win8-mauve w3-padding-8">
-    <div class="w3-xxlarge w3-section">
-      <a href="https://www.facebook.com/100218818187648/">
-        <i class="fa fa-facebook-official w3-hover-opacity"></i></a>
-      <a href="https://www.instagram.com/theshippingcompany_official/">
-        <i class="fa fa-instagram w3-hover-opacity"></i></a>
-    </div>
-  </footer>
+    <script>
+        // Change style of navbar on scroll
+        window.onscroll = function () { myFunction() };
+        function myFunction() {
+            var navbar = document.getElementById("myNavbar");
+            if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
+                navbar.className = "w3-bar w3-white" + " w3-card" + " w3-animate-top";
+            } else {
+                navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
+            }
+        }
 
-  <script>
-    // Change style of navbar on scroll
-    window.onscroll = function () { myFunction() };
-    function myFunction() {
-      var navbar = document.getElementById("myNavbar");
-      if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) {
-        navbar.className = "w3-bar w3-white" + " w3-card" + " w3-animate-top";
-      } else {
-        navbar.className = navbar.className.replace(" w3-card w3-animate-top w3-white", "");
-      }
-    }
+        // Used to toggle the menu on small screens when clicking on the menu button
+        function toggleFunction() {
+            var x = document.getElementById("navDemo");
+            if (x.className.indexOf("w3-show") == -1) {
+                x.className += " w3-show";
+            } else {
+                x.className = x.className.replace(" w3-show", "");
+            }
+        }
 
-    // Used to toggle the menu on small screens when clicking on the menu button
-    function toggleFunction() {
-      var x = document.getElementById("navDemo");
-      if (x.className.indexOf("w3-show") == -1) {
-        x.className += " w3-show";
-      } else {
-        x.className = x.className.replace(" w3-show", "");
-      }
-    }
-
-  </script>
+    </script>
 
 </body>
 
